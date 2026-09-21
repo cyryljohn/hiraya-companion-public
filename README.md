@@ -36,8 +36,10 @@ Updating is the same: run the newer setup file over the old one. Your settings a
 
 ## Packs
 
-In the sidebar under **群 PACK**, one player picks **Create a pack** and gets an 8-character code. Everyone else picks **Join with code**. Switch on **Share my position** and your packmates appear on both maps as named coloured dots, fading if they haven't updated in a while.
+In the sidebar under **群 PACK**, one player picks **Create a pack** and gets an 8-character code. Everyone else picks **Join with code**. Switch on **Share my position** and your packmates appear on both maps as named coloured dots; how long ago each was seen is written next to their name in the list.
 
+- **Pack waypoint:** the leader places a waypoint, then **WAYPOINT ▸ Set as pack waypoint**. Everyone sees it as a gold diamond, and while **Follow pack waypoint** is on (it is when you join) it's your active waypoint — your distance and heading point at it, and it moves when the leader moves it.
+- **Names and opacity:** hide packmates' names with the **Show names** switch or **Ctrl+Shift+N**; set how strong the pack layer is drawn in Settings › Map & Tracking › Pack.
 - Share the code in **DMs, not a public channel** — anyone holding it can see the pack until the leader rotates it (**⋯ → Rotate code**).
 - You only see your packmates **while you are sharing**, and sharing is off every time you start the app. Nobody can watch a pack silently.
 - Positions are what each player's own app read from their screen — never from the game server.
