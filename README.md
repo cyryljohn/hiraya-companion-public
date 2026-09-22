@@ -3,7 +3,7 @@
 The Gateway map for **Hiraya — The Lost Isle**, live on your second screen while you play The Isle: Evrima.
 
 - Full Gateway map: water, food, AI, salt licks, gastroliths, migration and patrol zones, named locations
-- A circular Mini Map that stays on top of the game (**Alt+M** to show or hide)
+- A circular Mini Map that stays on top of the game (**Alt+M** to show or hide), optionally turning to your direction of travel (Settings › Mini Map)
 - Your position tracked automatically, read off your own screen — no alt-tabbing
 - Pick the dinosaur you're playing and the map shows what it eats
 - Waypoints, a breadcrumb trail, a nearest-location readout
@@ -38,7 +38,7 @@ Updating is the same: run the newer setup file over the old one. Your settings a
 
 In the sidebar under **群 PACK**, one player picks **Create a pack** and gets an 8-character code. Everyone else picks **Join with code**. Switch on **Share my position** and your packmates appear on both maps as named coloured dots; how long ago each was seen is written next to their name in the list.
 
-- **Pack waypoint:** the leader places a waypoint, then **WAYPOINT ▸ Set as pack waypoint**. Everyone sees it as a gold diamond, and while **Follow pack waypoint** is on (it is when you join) it's your active waypoint — your distance and heading point at it, and it moves when the leader moves it.
+- **Pack waypoint:** the leader places a waypoint on the map, then presses **Share my waypoint with the pack** in the pack section. Everyone sees it as a gold diamond within seconds, and while **Follow pack waypoint** is on (it is when you join) it's your active waypoint — your distance and heading point at it, and it moves when the leader moves it. Everyone needs 1.4.1 or newer for this.
 - **Names and opacity:** hide packmates' names with the **Show names** switch or **Ctrl+Shift+N**; set how strong the pack layer is drawn in Settings › Map & Tracking › Pack.
 - Share the code in **DMs, not a public channel** — anyone holding it can see the pack until the leader rotates it (**⋯ → Rotate code**).
 - You only see your packmates **while you are sharing**, and sharing is off every time you start the app. Nobody can watch a pack silently.
