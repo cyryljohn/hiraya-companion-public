@@ -3,9 +3,11 @@
 The Gateway map for **Hiraya — The Lost Isle**, live on your second screen while you play The Isle: Evrima.
 
 - Full Gateway map: water, food, AI, salt licks, gastroliths, migration and patrol zones, named locations
+- Made for Hiraya: the map opens while The Isle is connected to Hiraya — The Lost Isle
+- Go straight to any coordinates: type or paste them in the corner of the map and a waypoint is set there
 - A circular Mini Map that stays on top of the game (**Alt+M** to show or hide), optionally turning to your direction of travel (Settings › Mini Map)
 - Your position tracked automatically, read off your own screen — no alt-tabbing
-- Pick the dinosaur you're playing and the map shows what it eats
+- Pick the dinosaur you're playing: the map shows what it eats, and your marker becomes that dinosaur
 - Waypoints, a breadcrumb trail, a nearest-location readout
 - **Packs:** share your position with your packmates and see theirs, by invite code
 - Marker packs: export your saved spots to a file and share them, import other people's
@@ -25,6 +27,7 @@ Download `HirayaCompanion-Setup-<version>.exe` from the newest release and run i
 1. Run the setup file. **No admin password is needed** — it installs just for your Windows account.
 2. Windows may show a blue **"Windows protected your PC"** box. Click **More info → Run anyway**. That appears because the app isn't code-signed yet, not because anything is wrong with it. The SHA-256 of every installer is listed on its release page if you want to check the file.
 3. Open **Hiraya Companion** from your desktop or Start menu. A short tour shows you around the first time.
+4. Join **Hiraya — The Lost Isle** in The Isle. The map opens by itself once you're connected; before that a Hiraya page covers it, while Settings and Help stay usable. The title bar shows which version you have.
 
 Updating is the same: run the newer setup file over the old one. Your settings and saved markers are kept. The app tells you when a newer version is out.
 
@@ -36,7 +39,7 @@ Updating is the same: run the newer setup file over the old one. Your settings a
 
 ## Packs
 
-In the sidebar under **群 PACK**, one player picks **Create a pack** and gets an 8-character code. Everyone else picks **Join with code**. Switch on **Share my position** and your packmates appear on both maps as named coloured dots; how long ago each was seen is written next to their name in the list.
+In the sidebar under **群 PACK**, one player picks **Create a pack** and gets an 8-character code. Everyone else picks **Join with code**. Switch on **Share my position** and your packmates appear on both maps as the dinosaur they picked (a coloured dot if they picked none), with their names; how long ago each was seen is written next to their name in the list.
 
 - **Pack waypoint:** the leader places a waypoint on the map, then presses **Share my waypoint with the pack** in the pack section. Everyone sees it as a gold diamond within seconds, and while **Follow pack waypoint** is on (it is when you join) it's your active waypoint — your distance and heading point at it, and it moves when the leader moves it. Everyone needs 1.4.1 or newer for this.
 - **Names and opacity:** hide packmates' names with the **Show names** switch or **Ctrl+Shift+N**; set how strong the pack layer is drawn in Settings › Map & Tracking › Pack.
@@ -46,13 +49,13 @@ In the sidebar under **群 PACK**, one player picks **Create a pack** and gets a
 
 ## Is it safe? Will it get me banned?
 
-**No.** Hiraya never reads or touches The Isle. It doesn't read game memory, doesn't modify game files, doesn't inject anything, doesn't hook the renderer, doesn't look at game traffic, and never sends input to the game. It only sees your clipboard and the pixels already on your screen — the same as taking a screenshot. The Mini Map is an ordinary window that happens to stay on top.
+**No.** Hiraya never reads or touches The Isle. It doesn't read game memory, doesn't modify game files, doesn't inject anything, doesn't hook the renderer, doesn't look at game traffic, and never sends input to the game. It only sees your clipboard, the pixels already on your screen — the same as taking a screenshot — and The Isle's own log file in your AppData folder, to see which server you joined. The Mini Map is an ordinary window that happens to stay on top.
 
 ## What leaves your PC
 
 - **Nothing**, by default.
 - Once per launch, one small version file is fetched from this page's releases so the app can tell you a newer build exists. Nothing about you is sent. You can switch it off in Settings › Advanced.
-- If you use **Packs**: your display name when you create or join, and your position **only while Share my position is on**, both only to the Hiraya server owner's pack service. There is no history — your latest position is overwritten, and deleted when you leave, are kicked, or stop sharing.
+- If you use **Packs**: your display name when you create or join, and your position and chosen dinosaur **only while Share my position is on**, both only to the Hiraya server owner's pack service. There is no history — your latest position is overwritten, and deleted when you leave, are kicked, or stop sharing.
 
 No account, no sign-in, no telemetry.
 
