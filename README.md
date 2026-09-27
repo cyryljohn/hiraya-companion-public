@@ -35,7 +35,7 @@ Updating is the same: run the newer setup file over the old one. Your settings a
 
 **Copy your location** (works straight away): copy your location in game and your marker moves.
 
-**OCR Tracking** (automatic): press **Tab** in game so your coordinates show, then in Hiraya click the arrow on **追跡 OCR TRACKING → Set up capture area** and drag a box around just the coordinate numbers. There's a picture in that window showing exactly what to select. From then on, keep the Tab menu open for about **3 seconds** and your marker updates; it reads the numbers off your screen about once a second and needs two matching reads before it moves you.
+**OCR Tracking** (automatic): press **Tab** in game so your coordinates show, then in Hiraya click the arrow on **追跡 OCR TRACKING → Set up capture area** and drag a box around the Asset Location block (Lat, Long and Alt), leaving a little room on every side. There's a picture in that window showing exactly what to select. From then on, keep the Tab menu open for about **3 seconds** and your marker updates; it reads the numbers off your screen about once a second and needs two matching reads before it moves you.
 
 ## Packs
 
@@ -69,7 +69,7 @@ No account, no sign-in, no telemetry.
 - **"Windows protected your PC"** — More info → Run anyway (see Installing).
 - **Smart App Control refuses to run it at all** — some Windows 11 PCs have Smart App Control on, which blocks every unsigned program. Until the app is signed there's no way around that setting on that PC.
 - **Two Hiraya windows / a Mini Map that won't close** — only one copy runs at a time; a second one just brings the first forward. Use the tray icon → **Exit** to close it fully.
-- **OCR says it can't read** — make the capture box tight around the numbers only, and keep the Tab menu open a little longer.
+- **OCR says it can't read** — draw the capture box around the whole Asset Location block (Lat, Long and Alt) with a little room on every side, and keep the Tab menu open a little longer.
 - **No Windows OCR language** — Settings › Time & Language › Language › add English, or the language your game runs in, with the OCR feature.
 
 Questions and bug reports: the Hiraya Discord.
